@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Analog Sea Signup Page</title>
+	<!--Google font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 </head>
@@ -11,17 +13,15 @@
 	<img class="logo" src="images/logo.png">
 
 	<!--Beginning of Input Info-->
-	<form action="" method="post">
-		<fieldset name="sign-up-page">
+	<form action="/signup/" method="post">
 			<h1>Sign Up</h1>
 			<label class="email" for="username">Email</label><input type="email" name="email" placeholder="analogsea@gmail.com" required />
 			<label class="password" for="password">Password</label><input type="text" name="password" placeholder="password" required />
 			<button type="submit">Sign up</button>
-			<p><a href="/forgotP_password/new">Forgot Password?</a></p>
-		</fieldset>
+			<p class="forgot"><a href="/forgot_password/new" class="forgot">Forgot Password?</a></p>
 	</form>
 	<div>
-		<p class="exsisting">Already have an account? <a href="/login">Log In</a></p>
+		<p class="existing">Already have an account? <a href="/login" class="login">Log In</a></p>
 	</div>
 </body>
 </html>
